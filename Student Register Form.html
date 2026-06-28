@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration Form</title>
+</head>
+<body>
+	<h1>Student Registration Form</h1>
+	<form>
+	<fieldset>
+	<legend>Personal Informations</legend>
+	<lable for="name">Name:</label>
+	<input type="text" id="name" name="name" placeholder="eg: Hashir" required>
+<br><br>
+	<label for"address">Address:</label>
+	<input type="text" id="address" name="address" placeholder="Enter your Address">
+<br><br>
+	<label for="gender">Gender:</label>
+	<br>
+	<input type="radio" id="gender" name="gender" value="male" required>
+	<label for="male">Male</label>
+	<br>
+	<input type="radio" id="gender" name="gender" value="female" required>
+	<label for="female">Female</label>
+	</fieldset>
+	
+	<fieldset>
+	<legend>Education Details</legend>
+	<label for="qualification">Qualification:</label>
+	<input type="text" id="qualification" placeholder="eg: BCA" required>
+	<br><br>
+	<label for="language">Language Known:</label>
+	<br>
+	<input type="checkbox" id=english name="language[]" value="english">
+	<label for="english">English</label>
+	<br>
+	<input type="checkbox" id=malayalam name="language[]" value="malayalam">
+	<label for="malayalam">Malayalam</label>
+	<br>
+	<input type="checkbox" id=hindi name="language[]" value="hindi">
+	<label for="hindi">English</Hindi>
+	</fieldset>
+	<button type="submit">Register</button>
+	</form>
+</body>
+</html>
