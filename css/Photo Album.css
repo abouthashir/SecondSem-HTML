@@ -1,0 +1,17 @@
+<style>
+body{
+}
+.gallery{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+}
+.gallery-image{
+	margin: 10px;
+	opacity: 0.8;
+	transition: opacity 0.3s;
+}
+.gallery-image:hover{
+	opacity: 1;
+}
+</style>
